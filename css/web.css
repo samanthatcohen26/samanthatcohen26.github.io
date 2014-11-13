@@ -1,0 +1,124 @@
+  @import url(http://fonts.googleapis.com/css?family=Roboto|Courgette);
+
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  h1,h2,h3{
+    font-family: 'Courgette', cursive;
+  }
+  header{
+   border:1px solid #ccc;
+   position:fixed;
+   top:0;
+   left:0;
+   height:100%;
+   width:300px;
+   padding:0 16px;
+   text-align:center;
+   background-image: url(../img/shl.png);
+  }
+
+h1{
+  Font-size:30px;
+}
+header h1,h2,p,address{
+  position:relative;
+  top:-12px;
+}
+
+h3{
+  position:relative;
+  top:-10px;
+}
+
+ img{
+   border:1px solid #ccc;
+   width:150px;
+   height:auto;
+   margin-top:3px;
+
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  }
+
+ h2{
+   font-size:15px;
+  }
+
+ address{
+   font-size:15px
+ }
+
+nav {
+  position:fixed;
+  bottom:40px;
+  left:0;
+  height:90px;
+  width:300px;
+  }
+
+nav li{
+  list-style-type:none;
+}
+
+nav ul{
+  padding:0;
+  text-align:center;
+  font-size:18px;
+}
+
+ul{
+  padding:0 15px 0 20px;
+}
+
+li > a {
+  display: inline-block;
+  padding: 1px;
+  border: 1px solid #ccc;
+  }
+
+  li > a:visited {
+  color: purple;
+}
+
+li > a:hover {
+  background:gray;
+  color: #fff;
+  border: 1px solid #3D67C8;
+}
+
+main{
+   margin-left:332px;
+   padding:0 15px 0 16px;
+   top:0;
+   right:0;
+   text-align:left;
+ }
+
+main ul{
+  position:relative;
+  top:-12px;
+}
+time{
+  font-size:12px;
+}
+
+#education p {
+  margin:0;
+  padding:5px;
+}
+ h3{
+   font-size:23px;
+ }
+
+ a {outline:0;}
+ a:link, a:visited {
+   color:purple;
+   padding: 0 1px;
+   text-decoration:underline;
+ }
+
+a:hover, a:active{
+  color:gray;
+}
