@@ -1,0 +1,75 @@
+*
+{
+  color: black;
+  background:transparent;
+  font-size: 12pt;
+  font-family:"Times New Roman", serif;
+}
+
+@page{
+  margin:0.5in;
+}
+
+nav{
+  display:none;
+}
+
+}
+header{
+padding:1in;
+}
+
+header p{
+  font-size:14pt;
+}
+
+h1{
+  font-size:35pt;
+}
+
+
+img{
+  display:none;
+}
+
+h2{
+ font-size:15pt;
+}
+
+address{
+ font-size:15pt;
+}
+
+
+ul{
+padding:0 0.15625in 0 0.208333333in;
+}
+
+
+time{
+font-size:12pt;
+}
+
+#education p {
+margin:0;
+padding:0.052083333in;
+}
+
+h3{
+ font-size:19pt;
+ margin:0;
+ padding:0.208333333in 0 0.03125in 0;
+}
+
+article{
+  margin:0;
+}
+
+a[href$=".html"] {
+  display:none;
+}
+a[href^="http://"] {
+  display: inline;
+}
+a[href^="http://"]:after {content: "("attr(href)")";
+}
