@@ -31,7 +31,7 @@ h3{
   top:-10px;
 }
 
- img{
+#infopicture{
    border:1px solid #ccc;
    width:150px;
    height:auto;
@@ -51,16 +51,12 @@ h3{
  }
 
 nav {
-  position:fixed;
-  bottom:40px;
-  left:0;
-  height:90px;
   width:300px;
+  position:fixed;
+  bottom:0;
+  background-image: url(../img/shl.png);
+ }
   }
-
-nav li{
-  list-style-type:none;
-}
 
 nav ul{
   padding:0;
@@ -68,18 +64,21 @@ nav ul{
   font-size:18px;
 }
 
-ul{
-  padding:0 15px 0 20px;
+nav li{
+list-style-type:none;
+display:inline-block;
+padding:10px;
 }
 
-li > a {
-  display: inline-block;
-  padding: 1px;
-  border: 1px solid #ccc;
-  }
+ul{
+  padding:0 15px 0 20px;
+  margin:0;
+}
+
 
   li > a:visited {
   color: purple;
+
 }
 
 li > a:hover {
@@ -96,6 +95,10 @@ main{
    text-align:left;
  }
 
+#index main,
+#resume main{
+  max-width:612px;
+}
 main ul{
   position:relative;
   top:-12px;
@@ -112,6 +115,25 @@ time{
    font-size:23px;
  }
 
+
+
+#facts{
+    display: inline-block;
+    padding: 1px;
+    border: 3px solid black;
+}
+
+#facts p{
+  text-align:center;
+
+}
+
+
+
+img.wide{
+  width:606px;
+  height:auto;
+}
  a {outline:0;}
  a:link, a:visited {
    color:purple;
